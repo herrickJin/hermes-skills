@@ -1,0 +1,129 @@
+{
+  "categories": {
+    "architect": [
+      {
+        "model": "glm-5.3",
+        "reasoning_effort": "high"
+      },
+      {
+        "model": "glm-5.3",
+        "reasoning_effort": "medium"
+      }
+    ],
+    "artistry": [
+      {
+        "model": "glm-5.3",
+        "reasoning_effort": "high"
+      },
+      {
+        "model": "mimo-v2.6-flash",
+        "reasoning_effort": "medium"
+      }
+    ],
+    "capable": [
+      {
+        "model": "glm-5.3",
+        "reasoning_effort": "medium"
+      },
+      {
+        "model": "glm-5.3-flash",
+        "reasoning_effort": "medium"
+      },
+      {
+        "model": "mimo-v2.6-flash",
+        "reasoning_effort": "medium"
+      }
+    ],
+    "deep": [
+      {
+        "model": "glm-5.3",
+        "reasoning_effort": "high"
+      },
+      {
+        "model": "deepseek-flash",
+        "reasoning_effort": "high"
+      }
+    ],
+    "deep-work": [
+      {
+        "model": "glm-5.3",
+        "reasoning_effort": "high"
+      },
+      {
+        "model": "deepseek-flash",
+        "reasoning_effort": "medium"
+      }
+    ],
+    "quick": [
+      {
+        "model": "glm-5.3-flash",
+        "reasoning_effort": "low"
+      },
+      {
+        "model": "mimo-v2.6-flash",
+        "reasoning_effort": "low"
+      }
+    ],
+    "simple-work": [
+      {
+        "model": "mimo-v2.6-flash",
+        "reasoning_effort": "low"
+      },
+      {
+        "model": "glm-5.3-flash",
+        "reasoning_effort": "low"
+      }
+    ],
+    "ultrabrain": [
+      {
+        "model": "glm-5.3",
+        "reasoning_effort": "high"
+      },
+      {
+        "model": "mimo-v2.6-flash",
+        "reasoning_effort": "high"
+      }
+    ],
+    "unspecified-high": [
+      {
+        "model": "glm-5.3",
+        "reasoning_effort": "medium"
+      },
+      {
+        "model": "glm-5.3-flash",
+        "reasoning_effort": "medium"
+      }
+    ],
+    "unspecified-low": [
+      {
+        "model": "glm-5.3-flash",
+        "reasoning_effort": "low"
+      },
+      {
+        "model": "mimo-v2.6-flash",
+        "reasoning_effort": "low"
+      }
+    ],
+    "visual-engineering": [
+      {
+        "model": "glm-5.3",
+        "reasoning_effort": "high"
+      },
+      {
+        "model": "glm-5.3-flash",
+        "reasoning_effort": "medium"
+      }
+    ],
+    "writing": [
+      {
+        "model": "glm-5.3",
+        "reasoning_effort": "medium"
+      },
+      {
+        "model": "glm-5.3-flash",
+        "reasoning_effort": "medium"
+      }
+    ]
+  },
+  "schema_version": "mixture_chain_overrides/v1"
+}

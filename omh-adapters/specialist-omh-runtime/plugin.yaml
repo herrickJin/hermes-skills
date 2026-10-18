@@ -1,0 +1,9 @@
+name: specialist-omh-runtime
+kind: standalone
+version: "1.0.0"
+requires_hermes: ">=0.22.2"
+description: "OMH 3.0.2 shared-core memory and readback adapter for specialist profiles"
+provides_memory_provider: specialist-omh-runtime
+provides_tools: []
+provides_hooks:
+  - post_tool_call
