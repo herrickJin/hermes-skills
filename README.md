@@ -12,6 +12,12 @@ Hermes Agent 多 Profile 团队的自研技能集（多机同步用）。
 | `tester-testing` | tester | 运行态测试 SOP 与报告模板（冒烟/E2E/回归） |
 | `independent-review` | reviewer | 独立审查流程与证据核对 |
 
+## 桌面插件（collab-board/）
+
+| 路径 | 用途 |
+|---|---|
+| `collab-board/` | **协作看板**桌面插件：复刻看板全部功能 + 卡片抽屉内嵌「执行回放」（worker 会话时间线：思考过程/工具调用/输出）+ 卡级模型与思考程度路由。含合并后端（打包版 kanban 路由 + kanban-sessions 回放路由，解决桌面 REST 按插件 id 隔离无法双后端的问题）、前端源码、QA spec 与安装说明。安装见 `collab-board/README.md` |
+
 ## OMH 资产（omh-adapters/ 与 omh-routing/）
 
 上游 [oh-my-hermes](https://github.com/rlaope/oh-my-hermes) 的 142 个托管工作流技能**不在本仓库**（由 `omh setup` 从上游安装，随上游版本化）。这里只存自研部分：

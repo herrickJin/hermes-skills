@@ -1,0 +1,5 @@
+{
+  "name": "task-board",
+  "api": "plugin_api.py",
+  "tab": { "hidden": true }
+}
